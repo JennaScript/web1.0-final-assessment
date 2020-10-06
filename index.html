@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <title>Jennalyn Kabiling - Final - Web 1.0</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+        <div id='main-container'>
+            <div id='left-column'>
+                <section id='student-info'>
+                    <h1>Jennalyn Kabiling</h1>
+                    <p>My favorite color is pink and I wear ballet flats.</p>
+                </section>
+
+                <section id='data-input'>
+                    <h1>Font Styler</h1>
+                    <form id='input-form'>
+                        <label for='input-size'>Font Size</label>
+                        <input id='input-size' type='number' value='0'>
+                
+                        <label for='select-font'>Font Family</label>
+                        <select id='select-font'>
+                            <option>Helvetica</option>
+                            <option>Arial</option>
+                            <option>Times New Roman</option>
+                            <option>Georgia</option>
+                        </select>
+                
+                        <label for='input-color'>Font Color</label>
+                        <input id='input-color' type='color' value='#000'>
+                
+                        <label for='input-bg-color'>Background Color</label>
+                        <input id='input-bg-color' type='color' value='#fff'>
+                
+                        <label for='enter-text'>Enter Text</label>
+                        <textarea id='enter-text'>Sample Text</textarea>
+                    </form>
+                </section>
+            </div>
+
+            <div id='right-column'>
+                <section id='headline-display'>
+                    <h1 id='display'>Sample Text</h1>
+                </section>
+
+                <section id='data-output'>
+                    <h1>Font Settings</h1>
+                    <pre><code>.headline {
+    font-size: <span id="show-size">16</span>px;
+    font-family: <span id="show-font">Times</span>;
+    color: <span id="show-color">#000</span>;
+    background-color: <span id="show-bg-color">#fff</span>
+    }</code></pre>
+                </section>
+            </div>
+        </div>
+        
+        <script src='script.js'></script>
+    
+    </body>
+</html>
