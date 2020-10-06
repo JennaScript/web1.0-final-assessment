@@ -47,4 +47,5 @@ function handleInput() {
     // Display text area
     const newText = inputText.value
     sampleText.innerHTML = newText
+    
 }
